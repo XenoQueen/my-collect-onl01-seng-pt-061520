@@ -1,9 +1,11 @@
 def my_collect(array)
-  if array == lang
-    array.collect do |l|l.upcase
+    if array == languages
+      array.collect do |x| x.upcase
+      end
+
+    else
+      array.collect do |x| x.split(" ").first
+      end
+
     end
-  else
-    array.collect do |l| l.split(" ").first
-    end
-  end
 end
