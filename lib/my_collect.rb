@@ -6,5 +6,6 @@ def my_collect(array)
     end
   else
     array.collect do |l| l.split(" ").first
+    end
   end
 end
