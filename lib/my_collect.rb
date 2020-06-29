@@ -5,4 +5,5 @@ def my_collect(array)
     array.collect do |l|l.upcase
     end
   else
-    array.collect do |l| l.split("").first
+    array.collect do |l| l.split(" ").first
+    
