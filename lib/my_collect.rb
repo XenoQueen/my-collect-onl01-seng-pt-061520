@@ -2,4 +2,4 @@ array = []
 
 def my_collect(array)
   if array == lang
-    array.collect do |
+    array.collect do |l|l.upcase
